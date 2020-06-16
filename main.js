@@ -211,7 +211,7 @@ newElement.append(solution14)
     for(counter1 = 0; counter1< sampleArray.length; counter1++) {
         let list = sampleArray[counter1] 
         let listSquare=list*list        
-        const newDiv = document.createElement('div')         
+        const newDiv = document.createElement('p')         
         solution14.append(newDiv)        
         newDiv.append(listSquare)             
      }
