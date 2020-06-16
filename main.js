@@ -224,14 +224,15 @@ newElement.append(Kata15Heading)
 const solution15 = document.createElement("p")
 solution15.append("Solution")
 newElement.append(solution15)
-let generic=0
+let total = 0
 for(let counter1 = 1; counter1 <= 20; counter1 += 1) {
-    generic+=counter1
-    
+    total += counter1
+}
     const newDiv = document.createElement("p")
     solution15.append(newDiv)
-    newDiv.append(generic)
-}
+    newDiv.append(total)
+
+
 // KATA 16
 const Kata16Heading = document.createElement("h1")
 Kata16Heading.append("Kata16")
